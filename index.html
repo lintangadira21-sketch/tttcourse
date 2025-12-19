@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tik Tak Top Course</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="90" tabindex="0">
+
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+        <img src="img/logottt.png" alt="Logo Tik Tak Top" class="logo-img">
+        <span class="fw-semibold">Tik Tak Top</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <!-- dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Layanan
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#pendaftaran">Pendaftaran Anggota</a></li>
+              <li><a class="dropdown-item" href="#info-layanan">Informasi Layanan</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#koleksi">Koleksi</a>
+          </li>
+
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-warning btn-sm" href="#pendaftaran">Daftar Sekarang</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero-section d-flex align-items-center">
+    <div class="container text-center">
+      <h1 class="display-5 fw-bold text-white">
+        Selamat Datang<br class="d-none d-lg-block">di Tik Tak Top Course
+      </h1>
+
+      <p class="lead text-white-50 mt-3 mb-4">
+        Kursus Komputer Aplikatif untuk Akademik & Profesional
+      </p>
+
+      <a href="#kelas" class="btn btn-light btn-lg me-2">Lihat Kelas</a>
+      <a href="#pendaftaran" class="btn btn-light btn-lg">Pendaftaran</a>
+    </div>
+
+    <div class="col-lg-5 text-center">
+      <img src="img/helloo.png" alt="Kartun say hello" class="hero-img">
+    </div>
+
+    <!-- Wave Hero -->
+    <div class="hero-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path fill="#d56989" fill-opacity="1"
+          d="M0,128L20,138.7C40,149,80,171,120,186.7C160,203,200,213,240,202.7C280,192,320,160,360,160C400,160,440,192,480,218.7C520,245,560,267,600,256C640,245,680,203,720,181.3C760,160,800,160,840,176C880,192,920,224,960,229.3C1000,235,1040,213,1080,192C1120,171,1160,149,1200,154.7C1240,160,1280,192,1320,202.7C1360,213,1400,203,1420,197.3L1440,192L1440,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section-about py-5">
+    <div class="container">
+
+      <div class="section-title mb-4">
+        <h2 class="section-heading fw-bold">About Tik Tak Top</h2>
+      </div>
+
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-6">
+          <div class="about-card p-4 rounded-4 shadow-sm">
+            <h2 class="fw-bold mb-3">About Tik Tak Top</h2>
+
+            <p class="mb-3">
+              Lembaga kursus komputer yang menghadirkan program pelatihan teknologi informasi
+              secara terstruktur dan aplikatif, didukung instruktur berpengalaman serta metode
+              pembelajaran berbasis praktik untuk membantu peserta menguasai keterampilan komputer
+              sesuai kebutuhan akademik maupun profesional.
+            </p>
+
+            <ul class="mb-0">
+              <li>Materi terstruktur + project</li>
+              <li>Fleksibel untuk pelajar & umum</li>
+              <li>Sertifikat Pelatihan</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="about-card card-soft p-4">
+            <h5 class="fw-bold mb-3">Jam Operasional</h5>
+
+            <div class="d-flex justify-content-between text-secondary small">
+              <span>Senin - Jumat</span>
+              <span class="fw-semibold text-dark">08.00 - 20.00</span>
+            </div>
+
+            <div class="d-flex justify-content-between text-secondary small mt-2">
+              <span>Sabtu</span>
+              <span class="fw-semibold text-dark">08.00 - 16.00</span>
+            </div>
+
+            <hr class="my-4">
+
+            <p class="mb-0 text-secondary">
+              Konsultasi program gratis via WhatsApp.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Informasi Layanan -->
+  <section id="info-layanan" class="section-services py-5">
+    <div class="container">
+
+      <div class="section-title mb-4">
+        <h2 class="section-heading fw-bold mb-1">Informasi Layanan</h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card h-100 rounded-4">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <div class="service-icon">💬</div>
+                <h5 class="card-title fw-bold mb-0">Konsultasi Program</h5>
+              </div>
+              <p class="card-text text-secondary mb-0">
+                Bantu menentukan kelas yang sesuai kebutuhan, level, dan target belajar.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card h-100 rounded-4">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <div class="service-icon">🧑‍💻</div>
+                <h5 class="card-title fw-bold mb-0">Kelas Online/Offline</h5>
+              </div>
+              <p class="card-text text-secondary mb-0">
+                Pilihan belajar tatap muka atau online dengan jadwal yang fleksibel.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card service-card h-100 rounded-4">
+            <div class="card-body p-4">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <div class="service-icon">🏅</div>
+                <h5 class="card-title fw-bold mb-0">Sertifikat Pelatihan</h5>
+              </div>
+              <p class="card-text text-secondary mb-0">
+                Diberikan setelah peserta menyelesaikan materi dan evaluasi/project.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pendaftaran Anggota -->
+  <section id="pendaftaran" class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-lg-5">
+          <h2 class="fw-bold section-title">Pendaftaran Anggota</h2>
+          <p class="text-secondary">
+            Isi formulir berikut untuk mendaftar peserta kursus.
+          </p>
+
+          <div class="p-4 rounded-4 bg-light border">
+            <h6 class="fw-semibold mb-2">Catatan</h6>
+            <ul class="mb-0 text-secondary">
+              <li>Pastikan WhatsApp aktif.</li>
+              <li>NIK/NIS boleh angka saja.</li>
+              <li>Program kursus bisa dipilih dari daftar kelas.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="card shadow-sm rounded-4">
+            <div class="card-body p-4 p-md-5">
+
+              <!-- ✅ WAJIB: name="Contact-Form" -->
+              <form name="Contact-Form" action="" method="post">
+
+                <div class="mb-3">
+                  <label for="nama" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="nama" name="nama"
+                    placeholder="Masukkan nama lengkap" required />
+                </div>
+
+                <div class="mb-3">
+                  <label for="program" class="form-label">Program Kursus</label>
+                  <select class="form-select" id="program" name="program" required>
+                    <option value="" selected disabled>Pilih program...</option>
+                    <option>Desain Grafis</option>
+                    <option>Web Programming</option>
+                    <option>Data Analysis</option>
+                    <option>Microsoft Office</option>
+                    <option>UI/UX Design</option>
+                    <option>Digital Marketing</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="nik" class="form-label">NIK / Nomor Induk Siswa</label>
+                  <input type="text" class="form-control" id="nik" name="nik" inputmode="numeric"
+                    pattern="[0-9]{6,20}" placeholder="Masukkan 6-20 digit angka" required />
+                </div>
+
+                <div class="mb-3">
+                  <label for="alamat" class="form-label">Alamat</label>
+                  <textarea class="form-control" id="alamat" name="alamat" rows="3"
+                    placeholder="Masukkan alamat lengkap" required></textarea>
+                </div>
+
+                <div class="mb-4">
+                  <label for="whatsapp" class="form-label">Nomor WhatsApp</label>
+                  <!-- ✅ WAJIB: name="whatsapp" sesuai header sheet -->
+                  <input type="tel" class="form-control" id="whatsapp" name="whatsapp" inputmode="tel"
+                    pattern="(\+62|62|0)8[1-9][0-9]{6,10}"
+                    placeholder="Masukkan nomor WhatsApp aktif (08xxx)" required />
+                </div>
+
+                <div class="d-flex gap-2">
+                  <button type="submit" class="btn btn-warning">Submit</button>
+                  <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Kelas -->
+  <section id="kelas" class="kelas-section">
+    <!-- Wave Kelas -->
+    <div class="section-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path fill="#D56989" fill-opacity="1"
+          d="M0,288L18.5,250.7C36.9,213,74,139,111,122.7C147.7,107,185,149,222,176C258.5,203,295,213,332,213.3C369.2,213,406,203,443,170.7C480,139,517,85,554,90.7C590.8,96,628,160,665,186.7C701.5,213,738,203,775,181.3C812.3,160,849,128,886,133.3C923.1,139,960,181,997,213.3C1033.8,245,1071,267,1108,272C1144.6,277,1182,267,1218,229.3C1255.4,192,1292,128,1329,133.3C1366.2,139,1403,213,1422,250.7L1440,288L1440,0L0,0Z">
+        </path>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-2 mb-4">
+        <div>
+          <h2 class="fw-bold mb-1">Daftar Kelas</h2>
+          <p class="text-secondary mb-0">Pilihan kelas/program kursus yang tersedia di Tik Tak Top.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Desain Grafis</h5>
+              <p class="card-text text-secondary">
+                Pelatihan desain visual menggunakan Canva/Adobe Photoshop untuk kebutuhan poster dan konten.
+              </p>
+              <a class="btn btn-sm btn-outline-primary" href="#pendaftaran">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Web Programming</h5>
+              <p class="card-text text-secondary">
+                Materi dasar pengembangan website dengan HTML, CSS, Bootstrap, dan JavaScript.
+              </p>
+              <a class="btn btn-sm btn-outline-primary" href="#pendaftaran">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Data Analysis</h5>
+              <p class="card-text text-secondary">
+                Pengolahan, analisis, visualisasi serta penyusunan laporan analisis data.
+              </p>
+              <a class="btn btn-sm btn-outline-primary" href="#pendaftaran">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Microsoft Office</h5>
+              <p class="card-text text-secondary">
+                Penguasaan Word, Excel, dan PowerPoint untuk kebutuhan akademik dan pekerjaan.
+              </p>
+              <a class="btn btn-sm btn-outline-primary" href="#pendaftaran">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">UI/UX Design</h5>
+              <p class="card-text text-secondary">
+                Perancangan antarmuka wireframe, prototyping, dan desain aplikasi menggunakan Figma.
+              </p>
+              <a class="btn btn-sm btn-outline-primary" href="#pendaftaran">Daftar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm rounded-4">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing</h5>
+              <p class="card-text text-secondary">
+                Strategi pemasaran digital dengan perencanaan konten, branding, dan promosi online.
+              </p>
+              <a class="btn btn-sm btn-outline-primary" href="#pendaftaran">Daftar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Koleksi -->
+  <section id="koleksi" class="py-5">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-2 mb-4">
+        <div>
+          <h2 class="fw-bold mb-1">Koleksi</h2>
+          <p class="text-secondary mb-0">
+            Dokumentasi hasil pembelajaran peserta yang mencerminkan kompetensi dan kemampuan yang diperoleh selama pelatihan.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="collection-tile">
+            <img src="img/posterdesain.png" alt="Poster Desain" class="collection-img">
+            <p class="collection-label">Poster Desain</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="collection-tile">
+            <img src="img/website.png" alt="Website Landing" class="collection-img">
+            <p class="collection-label">Website Landing</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="collection-tile">
+            <img src="img/analisis.png" alt="Analisis Data" class="collection-img">
+            <p class="collection-label">Analisis Data</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="collection-tile">
+            <img src="img/python.png" alt="Python" class="collection-img">
+            <p class="collection-label">Python</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4 footer-col">
+          <h5 class="fw-semibold">Tik Tak Top Course</h5>
+          <p class="mb-0">
+            Alamat: Jl. Pancasila No. 91, Jakarta Selatan, Indonesia
+          </p>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <h5 class="fw-semibold">Contact</h5>
+          <ul class="list-unstyled mb-0">
+            <li>WhatsApp: 0812-2126-2224</li>
+            <li>Email: info@tiktaktop.com</li>
+            <li>Telp: (021) 1234-5678</li>
+          </ul>
+        </div>
+
+        <div class="col-md-12 col-lg-4">
+          <h5 class="fw-semibold">Sosial Media</h5>
+          <div class="d-flex gap-2 flex-wrap">
+            <a class="btn btn-outline-light btn-sm" href="#" aria-label="Instagram">Instagram</a>
+            <a class="btn btn-outline-light btn-sm" href="#" aria-label="Facebook">Facebook</a>
+            <a class="btn btn-outline-light btn-sm" href="#" aria-label="YouTube">YouTube</a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4" />
+      <p class="mb-0 text-center small footer-copy">
+        © <span id="year"></span> Tik Tak Top Course
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Tahun -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Google Sheets submit -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwdSPF7dVO2dqMk5s9pqUfIqhSmkJM-8BqISgoZxyX-YvotAYnpcpZ3hXlpWWWTu-0Z/exec'
+    const form = document.forms['Contact-Form']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(() => alert('Data berhasil dikirim!'))
+        .catch(error => alert('Error! ' + error.message))
+    })
+  </script>
+</body>
+</html>
